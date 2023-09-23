@@ -1,0 +1,38 @@
+.footer{
+    position: relative;
+    top: 1rem;
+     width: 100%;
+     height:4rem;
+     background-color: rgb(255, 255, 255);
+
+        #colonne1{
+            position: relative;
+            top: 1rem;
+            width: 100%;
+              
+             h1{
+                font-family: 'Kanit', sans-serif;
+                font-size: 25px;
+             }
+        }
+}
+
+@media (max-width: 575.98px) {
+
+    .footer {
+        position: relative;
+        top: 20rem;
+
+        #colonne1{
+            position: relative;
+            top: 1rem;
+            width: 100%;
+              
+             h1{
+                font-family: 'Kanit', sans-serif;
+                font-size: 25px;
+                margin-left: 0%;
+             }
+        }
+    }
+}
